@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayShare Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0d0d2b, #0a0a23);
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+    <div class="bg-gradient-to-b from-blue-900 to-blue-800 rounded-b-full p-10 w-80 text-center">
+        <h1 class="text-white text-3xl mb-6">PLAYSHARE</h1>
+        <h2 class="text-white text-xl mb-4">Login</h2>
+        <form>
+            <div class="mb-4">
+                <input type="text" placeholder="Usuário" class="w-full p-3 rounded-full bg-gray-300 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div class="mb-4">
+                <input type="password" placeholder="Senha" class="w-full p-3 rounded-full bg-gray-300 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div class="mb-4 text-right">
+                <a href="#" class="text-gray-400 text-sm">Esqueci a senha</a>
+            </div>
+            <div class="mb-4">
+                <button type="submit" class="w-full p-3 rounded-full bg-blue-600 text-white hover:bg-blue-700">Acessar</button>
+            </div>
+            <div>
+                <a href="#" class="text-gray-400 text-sm">Não possuo cadastro</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
